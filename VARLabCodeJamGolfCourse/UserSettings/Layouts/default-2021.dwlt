@@ -19,6 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
+  <<<<<<< total-score-notification
+  m_Title: Console
+=======  
   m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
