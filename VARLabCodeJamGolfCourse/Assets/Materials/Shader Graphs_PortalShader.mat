@@ -14,7 +14,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -27,12 +27,18 @@ Material:
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
-    - _BUILTIN_QueueOffset: 0
+    - _BUILTIN_QueueOffset: 1
+    - _NewDissolveAmount: 2
+    - _NewScale: 5
+    - _newSpeed: 0.5
+    - _newTwirlStrength: 10
     m_Colors:
-    - _Color: {r: 49.330845, g: 3.588465, b: 50.71698, a: 0}
-    - _Scale: {r: 2.5, g: 0, b: 0, a: 0}
+    - _Color: {r: 3.1254613, g: 0.7747893, b: 4.773703, a: 1}
+    - _DissolveAmount: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 4, g: 0, b: 0, a: 0}
     - _Speed: {r: 0.5, g: 0, b: 0, a: 0}
-    - _TwrilStrength: {r: 10, g: 0, b: 0, a: 0}
+    - _TwrilStrength: {r: 28.7, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 2.5, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5809407407881233538
 MonoBehaviour:
