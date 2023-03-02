@@ -16,26 +16,39 @@ public class PortalCollider : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+
+    private void OnCollisionExit(Collision collision)
     {
-        
-
-
         if (this.gameObject.tag == "Portal1")
         {
 
             var portalOut = GameObject.FindGameObjectWithTag("Portal2");
-            other.transform.position = portalOut.transform.position;
+            collision.transform.position = portalOut.transform.position;
 
         }
 
 
-        if(this.gameObject.tag == "Portal2")
+        if (this.gameObject.tag == "Portal2")
         {
             var portalOut = GameObject.FindGameObjectWithTag("Portal1");
 
-            other.transform.position = portalOut.transform.position;
+            collision.transform.position = portalOut.transform.position;
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+
+        if (this.gameObject.tag == "Portal1In")
+        {
+
+            var portalOut = GameObject.FindGameObjectWithTag("Portal2Out");
+            other.transform.position = portalOut.transform.position;
+
+        }
+
+
     }
 
 }
