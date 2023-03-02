@@ -26,17 +26,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BUILTIN_QueueControl: 0
+    - _BUILTIN_QueueControl: 1
     - _BUILTIN_QueueOffset: 1
     - _NewDissolveAmount: 2
-    - _NewScale: 5
+    - _NewScale: 3.5
     - _newSpeed: 0.5
-    - _newTwirlStrength: 10
+    - _newTwirlStrength: 28.7
     m_Colors:
-    - _Color: {r: 3.1254613, g: 0.7747893, b: 4.773703, a: 1}
-    - _DissolveAmount: {r: 0, g: 0, b: 0, a: 0}
-    - _Scale: {r: 4, g: 0, b: 0, a: 0}
-    - _Speed: {r: 0.5, g: 0, b: 0, a: 0}
+    - _Color: {r: 5.7416797, g: 1.0592883, b: 9.993285, a: 1}
+    - _DissolveAmount: {r: 2, g: 0, b: 0, a: 0}
+    - _Scale: {r: 3.5, g: 0, b: 0, a: 0}
+    - _Speed: {r: 0.2, g: 0, b: 0, a: 0}
     - _TwrilStrength: {r: 28.7, g: 0, b: 0, a: 0}
     - _Vector2: {r: 2.5, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
