@@ -17,7 +17,7 @@ public class BallBehaviour : MonoBehaviour
 
     public LineRenderer line;
 
-    private float waitTime = 2.0f;
+    private float waitTime = 1.0f;
     private float timer = 0.0f;
 
     // Start is called before the first frame update

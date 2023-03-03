@@ -25,7 +25,9 @@ public class holeCollision : MonoBehaviour
         if(other.gameObject.name == "Player")
         {
 
-            other.transform.position = new Vector3(0, 0.5f, 0);
+            Vector3 resetPlayer = new Vector3(-11.78f, 0.77f, 14.27f);
+
+            other.transform.position = resetPlayer;
             score++;
             Debug.Log(other.attachedRigidbody);
 
